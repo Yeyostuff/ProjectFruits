@@ -50,3 +50,20 @@ main h1{
     text-align: center;
     font-family: "Roboto Mono", monospace;
 }
+
+main .principal-container{
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 5px;
+    grid-template-areas: 
+        "reward reward reward gap credit credit credit"
+        "a1 a2 a3 a4 a5 a6 a7"
+        "b1 back points points points back b2"
+        "c1 strwb strwb strwb strwb strwb c2"
+        "d1 back points points points back d2"
+        "e1 back back back back back e2"
+        "f1 doble doble back doble doble f2"
+        "g1 g2 g3 g4 g5 g6 g7"
+}
